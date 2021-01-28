@@ -9,6 +9,7 @@ import javax.sql.DataSource;
 
 @Configuration
 public class DataSourceConfig {
+
     @Value("local.run.db:${local.run.db:H2}")
     private String dbValue;
 
